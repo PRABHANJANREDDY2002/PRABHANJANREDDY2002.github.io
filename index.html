@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Personal Website</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--<link rel="stylesheet" href="css/alertify.css">-->
+    <link rel="stylesheet" href="js/alertify.min.css">
+    <!--<link rel="stylesheet" href="css/alertify.rtl.css">-->
+    <link rel="stylesheet" href="js/alertify.rtl.min.css">
+    <!--<link rel="stylesheet" href="css/themes/bootstrap.css">-->
+    <link rel="stylesheet" href="js/themes/bootstrap.min.css">
+   <!-- <link rel="stylesheet" href="css/themes/bootstrap.rtl.css">-->
+    <link rel="stylesheet" href="js/themes/bootstrap.rtl.min.css">
+   <!-- <link rel="stylesheet" href="css/themes/default.css">-->
+    <link rel="stylesheet" href="js/themes/default.min.css">
+   <!-- <link rel="stylesheet" href="css/themes/default.rtl.css">-->
+    <link rel="stylesheet" href="js/themes/default.rtl.min.css">
+    <!--<link rel="stylesheet" href="css/themes/semantic.css">-->
+    <link rel="stylesheet" href="js/themes/semantic.min.css">
+   <!-- <link rel="stylesheet" href="css/themes/semantic.rtl.css">-->
+    <link rel="stylesheet" href="js/themes/semantic.rtl.min.css">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+
+    
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse header">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+          </div>
+      
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="javascript: index()">Home</a></li>
+              <li><a href="javascript: about()">About</a></li>
+              <li><a href="javascript: gallery()">Gallery</a></li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="jumbotron text-center" id="index">
+        <div class="matter">
+            <img src="images/g13.jpg" alt="" width="210px" height="250px">
+        <h1 class="">Welcome to my personal page</h1>
+            
+        <p>This page would be saying about myself<br> to find out more click the below button</p>
+        
+        <p><a class="btn btn-primary btn-lg" href="javascript: about()" role="button">About Me</a></p>
+        </div>
+      </div>
+      </div>
+
+
+
+      <div class="jumbotron hidinfo" id="about">
+        <div id="MyImage"><img src="images/profile_pic.jpeg" alt="Girl in a jacket" class="center"></div>
+        <table class="crewtable nonhidinfo" id="Mytable">
+            <tr>
+              <td id="OddTD"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('Bio')" role="button">Bio</a></p></td>
+              <td id="EvenTD"><a class="btn btn-success btn-lg" href="javascript:mycrew('Personal info')" role="button">Personal info</a></td>
+              
+            </tr>
+            <tr>
+              <td id="OddTD2"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('education')" role="button">Education</a></p></td>
+              <td id="EvenTD2"><a class="btn btn-success btn-lg" href="javascript:mycrew('Family')" role="button">Family</a></td>
+            </tr>
+            <tr>
+              <td id="OddTD"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('Travel')" role="button">Travel</a></p></td>
+              <td id="EvenTD"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('meme')" role="button">My Meme Page</a></p></td>
+              
+            </tr>
+            <tr>
+              <td id="OddTD2"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('skills')" role="button">skills</a></p></td>
+              <td id="EvenTD2"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('Novels')" role="button">Novels</a></p></td>
+            </tr>
+            <tr>
+              <td id="OddTD"><p><a class="btn btn-success btn-lg" href="javascript:mycrew('project')" role="button">Projects</a></p></td>
+              <td id="EvenTD"><p><a class="btn btn-success btn-lg" href="javascript:mycrew(' FAVORITE')" role="button"> FAVORITES</a></p></td>
+              
+            </tr>
+            
+          </table>
+        
+        <div id="Bio" class="hidinfo">
+          <div class="imgdiv1"><img src="images/spec.jpg" alt="" ></div>
+          <p text-align:Center; >Name: L.L.PRABHANJAN REDDY<br>DOB: 26/02/2002<br>  Zodiac Sign	:	PISCES<br> Gender	:	Male<br>Father's Name:SANJEEVA REDDY<br>Mother's Name: SAILAJA <br>
+           
+          
+            
+            Siblings	:	None<br>
+            
+            Phone Number	: 9390492935<br>
+            E-mail	:	prabhanjanreddy3@gmail.com<br>
+            Profession	:	Student<br>
+            State	:	Andhra Pradesh<br>
+            Country	:	India<br>
+           
+            
+            Hobbies	:	Watching movies,playing games,reading books<br>
+            Married	:	Not yet</p>
+        </div>
+      
+        <div id="education" class="hidinfo">
+          <div class="imgdiv"><img src="images/g4.jpg" alt="" ></div>
+          <p class="crewmat">Amrita School Of Engineering, B.Tech in Computer Science  2019-2023 Amritapuri,<br>
+
+             Srujana Junior College, Intermediate Education 2017-2019 Kurnool<br>
+             Vishwabharathi High School, Secondary Education  2017 Gudivada<br>
+            
+            
+            
+            </p>
+        </div>
+        
+        <div id="Personal info" class="hidinfo">
+          <div class="imgdiv3"><img src="images/g14.jpg" alt="" ></div>
+          <p class="crewmat">Hey there<br>
+            My name is Prabhanjan and I am from Proddatur<br>
+            Both of my parents are teachers<br>
+            I've completed my bachelors in computer science from amrita school of engineering<br>
+            I enjoy playing and watching cricket<br></p>
+        </div>
+        
+        <div id="Family" class="hidinfo">
+          <div class="imgdiv"><img src="images/family.png" alt="" ></div>
+          <p class="crewmat">we are a family of 3<br>
+
+            My mother and father are both teachers,<br> and I am the only child.<br>
+            
+            
+            Every night, we eat dinner together<br>We occasionally travel for the weekend.</p>
+        </div>
+        
+        <div id="Travel" class="hidinfo">
+          <div class="imgdiv2"><img src="images/wayn.jpg" alt="" ></div>
+          <p class="crewmat">I Love to Travel!<br>
+            It is so boring to travel alone. The best aspect of travelling is spending time with friends; it's enjoyable.
+            I've made a lot of memories with them while travelling with them<br>
+             and we've already seen most of ap,ts, kerla karnataka<br>
+              I intend to cover Tamil Nadu this year.</p>
+        </div>
+        
+        <div id="meme" class="hidinfo">
+          <div class="imgdiv"><img src="images/tolly.png" alt="" ></div>
+          <p class="crewmat">I have a lot of spare time during the pandemic, so I've chosen to make the most of it by learning how to edit.
+            and launched a meme page that later achieved great success.
+            This page has now become a part of my daily life.<br>
+            <a href="https://www.instagram.com/tollymasti/">Click Here</a></p>
+        </div>
+      
+        <div id="skills" class="hidinfo">
+          <div class="imgdiv"><img src="images/skills.png" alt="" ></div>
+          <p class="crewmat">As a computer science student, I have developed some of the necessary skills, <br> I am familiar with:<br>
+            Python<br>
+            Java <br>
+            c <br>
+            HTML<br>
+            CSS <br>
+            jquery<br>
+            SQL Server<br>
+             </p>
+        </div>
+        
+        <div id="Novels" class="hidinfo">
+          <div class="imgdiv1"><img src="images/books.jpg" alt="" ></div>
+          <p class="crewmat">
+            The Awakening: Volume I (1991)<br>
+            The Struggle: Volume II (1991)<br>
+            The Fury: Volume III (1991)<br>
+            Dark Reunion: Volume IV (1992)<br>
+            The Return: Nightfall (2009)<br>
+            The Return: Shadow Souls (2010)<br>
+            The Return: Midnight (2011)<br>
+            The Hunters: Phantom (2011)<br>
+            The Hunters: Moonsong (2012)<br>
+            The Hunters: Destiny Rising (2012)<br>
+            The Salvation: Unseen<br>
+            The Salvation: Unspoken<br>
+            The Salvation: Unmasked</p>
+        </div>
+       
+        
+        
+        <div id="project" class="hidinfo">
+          <div class="imgdiv"><img src="images/projects.png" alt="" ></div>
+          <p class="crewmat">Suicide Ideation Prediction<br>
+            (ML-project) 10/2021-12/2021<br>
+             Plant Disease Detection <br> (DL Project) 09/2021-12/2021<br>
+              Bank Management System,<br> (Tkinter,Sql) 02/2022-04/2022 <br>
+            Heart Disease Prediction <br>(ML-project) 10/2021-12/2021</p>
+        </div>
+        <div id=" FAVORITE" class="hidinfo">
+          <div class="imgdiv"><img src="images/fav.png" alt="" ></div>
+          <p class="crewmat">Color:red<br>
+            Food:Biriyani<br>
+            Series:G.O.T|T.V.D.U|FRIENDS<br>
+            Marvel-Movie:NWH<br>
+            cricket Player:Virat Kohli<br>
+            Actor:Mahesh Babu<br>
+            Director:SSR<br>
+            Singer:Olivia Rodrigo<br>
+            Ice-cream:Butterscotch<br>
+            Place:Home<br></p>
+        </div>
+        <a class="btn btn-primary btn-lg hidinfo" id="backcrew" href="javascript:aboutback()" role="button" style="width: fit-content; margin: auto;">Back</a>
+      </div>
+
+
+
+      <div class="container hidinfo" id="gallery" style="margin-top: 30px;margin-bottom: 30px;width: 30%;">
+        <div class="mySlides">
+          <div class="numbertext">1 / 13</div>
+          <img src="images/g1.jpg" style="width:100%" >
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 13</div>
+          <img src="images/g2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 13</div>
+          <img src="images/g3.jpg" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">4 / 13</div>
+          <img src="images/g4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 13</div>
+          <img src="images/g5.jpg" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">6 / 13</div>
+          <img src="images/g6.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 13</div>
+          <img src="images/g7.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 13</div>
+          <img src="images/g8.jpg" style="width:100%">
+        </div>
+
+        
+
+        <div class="mySlides">
+          <div class="numbertext">9 / 13</div>
+          <img src="images/g13.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">10 / 13</div>
+          <img src="images/g14.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">11 / 13</div>
+          <img src="images/profile_pic.jpeg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">12 / 13</div>
+          <img src="images/wayn.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">13 / 13</div>
+          <img src="images/g17.jpg" style="width:100%">
+        </div>
+        <br>
+        <center>
+        <a class="btn btn-primary btn-md" onclick="plusSlides(-1)">Prev</a>
+        <a class="btn btn-primary btn-md" onclick="plusSlides(1)">Next</a>
+        </center> 
+        <br>
+        
+        </div>
+      </div>
+
+
+
+
+      <nav class="navbar navbar-default navbar-fixed-bottom navbar-inverse footer">
+        <div class="container-fluid">
+            <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100007322146383"><i class="fa fa-facebook fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/prabhanjan-reddy-443ab220b/"><i class="fa fa-linkedin fa-3x"></i></a>
+            <a href="https://www.instagram.com/reddy_since_2002/?hl=en"><i class="fa fa-instagram fa-3x"></i></a>
+            </div>
+            
+        </div>
+      </nav>
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+     
+     <!-- <script src="js/alertify.js"></script>-->
+      <script src="js/alertify.min.js"></script>
+      <script src="js/script.js"></script>
+  
+      
+
+</body>
+</html>
